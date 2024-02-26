@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Module2Topic1.Site1" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>My ASP.NET Application</title>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <!-- Navigation Bar -->
+            <div>
+                <a href="Default.aspx">Home</a>
+                <a href="Exercise1.aspx">Exercise  1</a>
+                <a href="Exercise2.aspx">Exercise  2</a>
+                <a href="Exercise3.aspx">Exercise  3</a>
+                <a href="Exercise4.aspx">Exercise  4</a>
+                <a href="Exercise5.aspx">Exercise  5</a>
+            </div>
+
+            <!-- Main Content -->
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                <h1>Reflection on ASP.NET WebForms vs. Plain HTML</h1>
+    <p>Compared to plain HTML, ASP.NET WebForms provides a more structured and server-side oriented way of building web applications. It abstracts the HTML generation, making it easier to maintain and update the UI without directly manipulating HTML.</p>
+
+            </asp:ContentPlaceHolder>
+
+            <!-- Footer -->
+            <div>
+                Copyright &copy; Clarence Abcdee M. GLorioso  2024
+            </div>
+        </div>
+    </form>
+</body>
+</html>
+
